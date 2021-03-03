@@ -313,14 +313,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 114px);
+  height: calc(60vh - 114px);
   padding: 0;
   overflow: hidden;
 }
 
 #hero .carousel-item {
-  width: 100%;
-  height: calc(100vh - 114px);
+  width: 100vw;
+  height: calc(60vh - 114px);
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
@@ -462,7 +462,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 
 .section-bg {
@@ -537,11 +537,11 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .about .container {
-  box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+  box-shadow: 0 5px 25px 0 var(--jacobs-lightgray-color);
 }
 
 .about .video-box img {
@@ -551,15 +551,15 @@ section {
 .about .section-title p {
   text-align: left;
   font-style: italic;
-  color: #666;
+  color: var(--jacobs-gray-color);
 }
 
 .about .about-content {
-  padding: 40px;
+  padding: 10px;
 }
 
 .about .icon-box + .icon-box {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .about .icon-box .icon {
@@ -567,8 +567,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 72px;
-  height: 72px;
+  width: 90px;
+  height: 90px;
   background: #f1f7fb;
   border-radius: 6px;
   transition: 0.5s;
